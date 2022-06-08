@@ -557,7 +557,7 @@ section.accordeon-animated-2 {
     margin: 1%;
 }
 
-.accordion-animated {
+.accordeon-animated-button {
     background-color: white;
     box-shadow:
         1.6px 4.7px 7.1px rgba(0, 0, 0, 0.03),
@@ -584,7 +584,7 @@ section.accordeon-animated-2 {
     color: white;
 } */
 
-.accordion-animated:after {
+.accordeon-animated-button:after {
     content: '\002B';
     color: #777;
     /* font-weight: bold; */
