@@ -369,7 +369,7 @@
 
 <header>
   <div class="logo-mobile">
-      <img src="img/logo.png">
+      <img src="img/logo.png" alt="Schloss Oberndorf logo">
   </div>
   <input type="checkbox" id="menu-btn" class="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
@@ -380,7 +380,7 @@
       <li class="logo-desktop"><a href="index.html">
               <img src="img/logo.png" height="70%">
       </li>
-      <li class="nav-link"><a href="gallery2.html">Gallery</a></li>
+      <li class="nav-link"><a href="gallery.html">Gallery</a></li>
       <li class="nav-link"><a href="prices.html">Prices</a></li>
       <li class="nav-link"><a href="faq.html">FAQ</a></li>
       <li class="nav-link"><a href="contact.html">Contact</a></li>
