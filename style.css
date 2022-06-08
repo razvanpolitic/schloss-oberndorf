@@ -123,6 +123,8 @@ p {
     text-align: center;
 }
 
+
+
 /* Home Page */
 
 .hero {
@@ -136,6 +138,7 @@ p {
 .welcome {
     position: relative;
     z-index: -1;
+    display: flexbox;
 }
 
 .welcome-img {
@@ -1013,7 +1016,10 @@ section.extra-elements-1 {
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
+
+
 }
+
 
 @media only screen and (max-width: 700px) {
 
