@@ -123,6 +123,8 @@ p {
     text-align: center;
 }
 
+
+
 /* Home Page */
 
 .hero {
@@ -136,6 +138,7 @@ p {
 .welcome {
     position: relative;
     z-index: -1;
+    display: flexbox;
 }
 
 .welcome-img {
