@@ -1161,3 +1161,78 @@ section.extra-elements-1 {
     }
 
 }
+
+/*----------------THE CASTLE-----------*/
+
+.vicinity {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 18vh;
+    padding-top: 5%;
+    margin: 5% 35% 5% 35%;
+}
+
+.vicinity p{
+    margin-top: 5%;
+}
+
+.map-image {
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4%;
+}
+
+.thecastle-white-p{
+    overflow-x: hidden;
+    font-family: freight-big-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    padding: 0 25% 5% ;
+}
+
+.our-rooms-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 3%;
+}
+
+.cta-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.tour {
+    position: relative;
+    z-index: -1;
+}
+
+.tour-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow-wrap: normal;
+    color: white;
+}
+
+.tour-heading{
+    font-size: 10vh;
+}
+
+.tour-p{
+    font-size: 4vh;
+}
+
