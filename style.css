@@ -703,33 +703,6 @@ section.accordeon-animated-2 {
     .imp-4 {
         margin-top: 2%;
     }
-
-    .category {
-        width: 33.33%;  
-    
-      }
-    
-      .gallery-row {
-    
-        display: flex;
-    
-        flex-wrap: wrap;
-    
-        margin: 0 100px 0 100px;
-    
-      }
-    
-      #categories{
-        gap: 5%;
-      }
-    
-    .gallery-button{
-      font-size: 20px;
-    }
-    
-    .gallery-body{
-      padding: 20px 200px 0 200px;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1347,6 +1320,31 @@ section.extra-elements-1 {
   
   @media screen and (min-width: 560px) {
   
-    
+    .category {
+      width: 33.33%;  
+  
+    }
+  
+    .gallery-row {
+  
+      display: flex;
+  
+      flex-wrap: wrap;
+  
+      margin: 0 100px 0 100px;
+  
+    }
+  
+    #categories{
+      gap: 5%;
+    }
+  
+  .gallery-button{
+    font-size: 20px;
+  }
+  
+  .gallery-body{
+    padding: 20px 200px 0 200px;
+  }
   }
 
