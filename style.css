@@ -63,6 +63,7 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 16pt;
+    background-color: var(--bg-color);
 }
 
 p {
@@ -592,9 +593,9 @@ section.accordeon-animated-2 {
     margin-left: 5px;
 }
 
-.active:after {
+/* .active:after {
     content: "\2212";
-}
+} */
 
 .panel-animated {
     padding: 0 18px;
@@ -1250,7 +1251,6 @@ section.extra-elements-1 {
   .gallery-button {
     border: none;
     outline: none;
-    background-color:#F7F6F5;
     cursor: pointer;
     margin: 5px 0 5px 0;
     color: #958C92;
@@ -1259,14 +1259,12 @@ section.extra-elements-1 {
   .gallery-button:hover {
     border-bottom: 1px solid #2E1B2A; 
     text-decoration: none;
-    background-color: #F7F6F5;
     color: #2E1B2A;
   }
   
   .gallery-button.active {
     border-bottom: 1px solid #2E1B2A; 
     text-decoration: none;
-    background-color: #F7F6F5;
     color: #2E1B2A;
   }
   
