@@ -375,8 +375,8 @@
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">
       <li class="nav-link"><a href="index.html">Home</a></li>
-      <li class="nav-link"><a href="castle.html">History</a></li>
-      <li class="nav-link"><a href="premises.html">The Castle</a></li>
+      <li class="nav-link"><a href="history.html">History</a></li>
+      <li class="nav-link"><a href="thecastle.html">The Castle</a></li>
       <li class="logo-desktop"><a href="index.html">
               <img src="img/logo.png" height="70%">
       </li>
