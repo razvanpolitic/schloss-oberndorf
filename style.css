@@ -798,6 +798,143 @@ section.accordeon-animated-2 {
         width: 5vw;
         /* border: 1px solid red; */
     }
+
+    /* price packages */
+
+    .packages {
+        display: flex;
+        justify-content: center;
+    }
+
+    .packages-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2.5%;
+        width: 75%;
+    }
+
+    .card0,
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 0%;
+        margin-top: 4%;
+        padding: 15%;
+        height: 60vh;
+    }
+
+    .package-day {
+        position: relative;
+        bottom: 5%;
+    }
+
+    .package-description {
+        text-align: center;
+    }
+
+
+    /* accordeon */
+
+    section.accordeon-animated-2 {
+        flex-direction: column;
+    }
+
+    .accordeon-animated {
+        width: 85vw;
+    }
+
+    .accordion-animated {
+        padding: 4%;
+        padding-bottom: 4%;
+        font-size: 0.86em;
+    }
+
+    /* EXTRA ELEMENTS */
+
+    /* extra-elements-headers */
+
+    .extra-elements-category h1 {
+        margin-left: 0%;
+        text-align: center;
+        font-size: 2.9em;
+    }
+
+
+    .extra-elements-category-r h1 {
+        margin-right: 0%;
+        text-align: center;
+        font-size: 2.9em;
+    }
+
+
+    .extra-elements-category {
+        flex-direction: column;
+    }
+
+    .extra-elements-category section .extra-elements-1 {
+        flex-direction: column-reverse;
+    }
+
+    .extra-elements-category section .extra-elements-1 img {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .extra-elements-category section .extra-elements-1 .extra-btn {
+        margin-bottom: 30%;
+    }
+
+    /* extra elements content */
+
+    section.extra-elements-1 {
+        flex-direction: column;
+    }
+
+
+    .extra-element,
+    .extra-element-img {
+        margin: 0%;
+        margin-top: 5%;
+    }
+
+    .extra-element-img {
+        width: 80vw;
+    }
+
+    .extra-element {
+        width: 80vw;
+        align-items: center;
+    }
+
+    .extra-element-p-subheading {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .extra-element p {
+        text-align: center;
+    }
+
+    .extra-element h1 {
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .extra-btn {
+        margin-top: 20%;
+    }
+
+    .extra-btn-flex {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
 }
 
 /* PRICES */
@@ -1022,12 +1159,6 @@ section.extra-elements-1 {
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
-}
-
-
-@media only screen and (max-width: 700px) {
-
-    
 }
 
 /*----------------THE CASTLE-----------*/
