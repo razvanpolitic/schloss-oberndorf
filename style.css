@@ -1214,7 +1214,6 @@ section.extra-elements-1 {
 
 .tour {
     position: relative;
-    z-index: -1;
 }
 
 .tour-text{
