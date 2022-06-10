@@ -512,7 +512,7 @@ button {
 /* left */
 
 .faq-category h1 {
-    margin-left: 32%;
+    margin-left: 28%;
     margin-top: 3%;
 }
 
@@ -532,7 +532,7 @@ button {
 }
 
 .faq-category-r h1 {
-    margin-right: 32%;
+    margin-right: 28%;
     text-align: right;
     margin-top: 3%;
 }
@@ -584,12 +584,6 @@ section.accordeon-animated-2 {
     padding-bottom: 2%;
 }
 
-/* .active,
-.accordion-animated:hover {
-    background-color: var(--accent-color);
-    color: white;
-} */
-
 .accordeon-animated-button:after {
     content: '\002B';
     color: #777;
@@ -597,10 +591,10 @@ section.accordeon-animated-2 {
     float: right;
     margin-left: 5px;
 }
-
-/* .active:after {
+.accordeon-animated-button.active::after {
     content: "\2212";
-} */
+    color: #777
+}
 
 .panel-animated {
     padding: 0 18px;
