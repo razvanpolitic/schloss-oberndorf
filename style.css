@@ -140,6 +140,7 @@ p {
     position: relative;
     z-index: -1;
     display: flexbox;
+    padding-top: 3%;
 }
 
 .welcome-img {
@@ -151,7 +152,7 @@ p {
 
 .welcome-text {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -364,6 +365,8 @@ footer p {
 
 #icons {
     padding: 0 0 0 5%;
+    flex-direction: row;
+    padding: 2%;
 }
 
 #icons svg {
@@ -1364,11 +1367,33 @@ section.extra-elements-1 {
     }
 
     .f-logo {
-
+        width: 70%;
     }
 
     footer h3 {
+        font-size: 2rem;
+    }
 
+    footer p {
+        font-size: 1rem;
+    }
+
+    #icons {
+        flex-direction: row;
+        align-self: center;
+        width: 80%;
+        gap: 20%;
+        padding: 15% 20%;
+    }
+
+    .footer-2 {
+        flex-direction: column;
+        padding: 4%;
+        line-height: 1.5rem;
+    }
+
+    .footer-2 a {
+        font-size: 1rem;
     }
 }
   
