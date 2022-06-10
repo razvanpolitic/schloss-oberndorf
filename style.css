@@ -831,6 +831,7 @@ section.accordeon-animated-2 {
     .package-day {
         position: relative;
         bottom: 5%;
+        z-index: -3;
     }
 
     .package-description {
