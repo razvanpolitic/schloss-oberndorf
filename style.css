@@ -328,7 +328,7 @@ footer p {
     font-family: Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .footer-1 {
@@ -362,10 +362,13 @@ footer p {
     flex-direction: column;
 }
 
+#icons {
+    padding: 0 0 0 5%;
+}
+
 #icons svg {
     width: 70%;
     height: 70%;
-    justify-content: space-between;
 }
 .f-logo {
     width: 40%;
@@ -390,7 +393,7 @@ footer p {
 .footer-2 a {
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 0.8rem;
     text-decoration: none;
 }
 
@@ -1317,15 +1320,57 @@ section.extra-elements-1 {
     }
     
     footer h3 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     footer p {
-        font-size: 0.8rem;
-        padding: ;
+        font-size: 0.6rem;
+    }
+
+    .f-column {
+        padding: 4.5%;
+    }
+
+    .f-logo {
+        width: 30%;
+    }
+
+    #icons svg {
+        width: 80%;
+        margin: -15px 0;
+    }
+
+    .footer-2 {
+        padding: 1% 25%;
+    }
+    .footer-2 a {
+        font-size: 0.6rem;
     }
 }
   
+@media only screen and (max-width: 768px) {
+    .footer-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vr {
+        display: none;
+    }
+
+    .f-logo {
+
+    }
+
+    footer h3 {
+
+    }
+}
   
   
   @media screen and (min-width: 560px) {
