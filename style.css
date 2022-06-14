@@ -1227,7 +1227,6 @@ section.extra-elements-1 {
         margin-left: 0%;
         width: 5vw;
         /* border: 1px solid red; */
-
     }
 
     .cta-roses-2 {
@@ -1496,6 +1495,7 @@ section.extra-elements-1 {
     .cta-form label {
         font-size: 0.8rem;
     }
+}
 
     @media only screen and (max-width: 768px) {
         .footer-1 {
@@ -1548,17 +1548,12 @@ section.extra-elements-1 {
 
         .category {
             width: 33.33%;
-
         }
 
         .gallery-row {
-
             display: flex;
-
             flex-wrap: wrap;
-
             margin: 0 100px 0 100px;
-
         }
 
         #categories {
@@ -1573,5 +1568,3 @@ section.extra-elements-1 {
             padding: 20px 200px 0 200px;
         }
     }
-
-    @media only screen and (min-width: 992px) {}
