@@ -141,6 +141,7 @@ p {
     z-index: -1;
     display: flexbox;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .welcome-img {
