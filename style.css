@@ -187,6 +187,10 @@ p {
     margin-bottom: 4%;
 }
 
+.abt-heading-mobile {
+    display: none;
+}
+
 .about {
     display: flex;
     gap: 5%;
@@ -739,12 +743,12 @@ section.accordeon-animated-2 {
     text-align: center;
     display: flex;
     flex-direction: row;
-    padding: 3% 0 0% 2%
+    padding: 3% 0 0% 
 }
 
 .contact-icons svg {
-    width: 13%;
-    height: 13%;
+    width: 85%;
+    height: 85%;
     padding: 2%;
 }
 
@@ -1630,6 +1634,65 @@ section.extra-elements-1 {
 
     .welcome-p {
         font-size: 1rem;
+    }
+
+    .background {
+        padding-bottom: 5%;
+    }
+
+    .about-cont {
+        font-size: 1rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-cont h1 {
+        display: none;
+    }
+
+    .about-cont p {
+        padding: 0 6% 5% 6%;
+        width: 100%;
+    }
+    .about-cont img {
+        padding: 0 6% 0 6%;;
+    }
+    #hr-abt {
+        display: none;
+    }
+
+    .abt-heading-mobile {
+        display: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-pic {
+        padding: 0 6% 5% 6%;
+        margin-top: -10%;
+    }
+
+    .background-2 {
+        background: var(--bg-color);
+    }
+
+    .CTA-right {
+        display: none;
+    }
+
+    .CTA-left {
+        padding-right: 12%
+    }
+
+    .align-button {
+        margin-right: 5%;
+    }
+
+    #form-footer {
+        padding-right: 6%
     }
 }
 
