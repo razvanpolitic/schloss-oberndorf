@@ -594,7 +594,7 @@ section.accordeon-animated-2 {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 1rem;
+    font-size: 0.8em;
     transition: 0.4s;
     margin: 1%;
     padding-bottom: 2%;
@@ -621,15 +621,13 @@ section.accordeon-animated-2 {
 .panel-animated {
     padding: 0 18px;
     margin: 5px 0;
-    background-color: #F7F6F5;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     font-family: freight-big-pro, serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 1rem;
-    z-index: -1;
 }
 
 /* Contact */
