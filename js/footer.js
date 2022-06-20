@@ -51,10 +51,10 @@ class Footer extends HTMLElement {
                     <div class="vr">&nbsp;</div>
                     <div class="f-column" id="icons">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="53" height="53" viewBox="0 0 53 53">
+                            width="53.621" height="53.621" viewBox="0 0 53.621 53.621">
                             <defs>
                                 <clipPath id="clip-path">
-                                    <rect id="Rectangle_73" data-name="Rectangle 73" width="53" height="53"
+                                    <rect id="Rectangle_73" data-name="Rectangle 73" width="53.621" height="53.621"
                                         fill="rgba(255,255,255,0.92)" />
                                 </clipPath>
                             </defs>
@@ -71,10 +71,10 @@ class Footer extends HTMLElement {
                             </g>
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="53" height="53" viewBox="0 0 53 53">
+                            width="53.206" height="53.621" viewBox="0 0 53.206 53.621">
                             <defs>
                                 <clipPath id="clip-path">
-                                    <rect id="Rectangle_74" data-name="Rectangle 74" width="53" height="53"
+                                    <rect id="Rectangle_74" data-name="Rectangle 74" width="53.206" height="53.621"
                                         fill="rgba(255,255,255,0.92)" />
                                 </clipPath>
                             </defs>
