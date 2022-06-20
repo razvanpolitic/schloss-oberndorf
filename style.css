@@ -493,17 +493,12 @@ h1 {
 }
 
 p {
-    font-family: freight-big-pro, serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18pt;
+    font-family: body;
+    font-size: 0.8em;
 }
 
 button {
-    font-family: freight-big-pro, serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18pt;
+    font-family: body;
 }
 
 .faq-text {
