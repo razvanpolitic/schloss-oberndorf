@@ -686,7 +686,7 @@ section.accordeon-animated-2 {
     margin-top: 5%;
     font-family: Helvetica , sans-serif;
     letter-spacing: 100;
-    font-weight: 500;
+    font-weight: lighter;
     text-align: left;
 }
 
@@ -704,7 +704,7 @@ section.accordeon-animated-2 {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: vertical
 }
 
 .c-cta-form input[type=submit] {
@@ -726,6 +726,7 @@ section.accordeon-animated-2 {
     margin-bottom: 3%;
     height: 50px;
     width: 200px;
+    font-family: Helvetica, sans-serif;
 }
 
 .c-cta-form input[type=submit]:hover {
