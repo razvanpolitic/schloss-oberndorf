@@ -321,14 +321,14 @@ footer h3 {
     color: white;
     padding-bottom: 3%;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 35px;
 }
 
 footer p {
     font-family: Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 1rem;
+    font-size: large;
 }
 
 .footer-1 {
@@ -340,6 +340,11 @@ footer p {
     padding: 1% 15% 2% 15%;
     justify-content: center;
     align-items: center;
+}
+
+.f-logo img {
+    height: auto;
+    width: auto;
 }
 
 .f-text {
@@ -366,13 +371,6 @@ footer p {
     width: 70%;
     height: 70%;
     justify-content: space-between;
-}
-.f-logo {
-    width: 40%;
-}
-
-.f-logo svg {
-    width: 100%;
 }
 
 .footer-2 {
@@ -680,7 +678,261 @@ section.accordeon-animated-2 {
     z-index: 1;
 }
 
+@media screen and (min-width: 1025px) {
+    .impression-pics img {
+        width: 22%;
+        height: 22%;
+    }
 
+    .imp-1 {
+        margin-top: 0;
+    }
+
+    .imp-2 {
+        margin-top: 1%;
+    }
+
+    .imp-3 {
+        margin-top: 3%;
+    }
+
+    .imp-4 {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome {
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome-img {
+        height: 50vh;
+        width: auto;
+    }
+
+    .welcome-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        overflow-wrap: normal;
+        width: 60%;
+    }
+
+    .impression-pics {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .impression-pics img {
+        margin: 3% 6%;
+    }
+
+
+    /* faq-headers */
+
+    .faq-category h1 {
+        margin-left: 0%;
+        text-align: center;
+        font-size: 2.9em;
+    }
+
+
+    .faq-category-r h1 {
+        margin-right: 0%;
+        text-align: center;
+        font-size: 2.9em;
+    }
+
+
+    /* accordeon */
+
+    section.accordeon-animated-2 {
+        flex-direction: column;
+    }
+
+    .accordeon-animated {
+        width: 85vw;
+    }
+
+    .accordion-animated {
+        padding: 4%;
+        padding-bottom: 4%;
+        font-size: 0.86em;
+    }
+
+    /* contact-roses*/
+
+    .cta-roses-1 {
+        background-image: none;
+        transform: rotate(0deg);
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 5vw;
+        /* border: 1px solid red; */
+
+    }
+
+    .cta-roses-2 {
+        width: 90vw;
+        height: 100vh;
+        /* border: 1px solid red; */
+
+    }
+
+    .cta-roses-3 {
+        background-image: none;
+        transform: rotate(0deg);
+        margin-top: 0%;
+        margin-right: 0%;
+        width: 5vw;
+        /* border: 1px solid red; */
+    }
+
+    /* price packages */
+
+    .packages {
+        display: flex;
+        justify-content: center;
+    }
+
+    .packages-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2.5%;
+        width: 75%;
+    }
+
+    .card0,
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 0%;
+        margin-top: 4%;
+        padding: 15%;
+        height: 60vh;
+    }
+
+    .package-day {
+        position: relative;
+        bottom: 5%;
+        z-index: -3;
+    }
+
+    .package-description {
+        text-align: center;
+    }
+
+
+    /* accordeon */
+
+    section.accordeon-animated-2 {
+        flex-direction: column;
+    }
+
+    .accordeon-animated {
+        width: 85vw;
+    }
+
+    .accordion-animated {
+        padding: 4%;
+        padding-bottom: 4%;
+        font-size: 0.86em;
+    }
+
+    /* EXTRA ELEMENTS */
+
+    /* extra-elements-headers */
+
+    .extra-elements-category h1 {
+        margin-left: 0%;
+        text-align: center;
+        font-size: 2.9em;
+    }
+
+
+    .extra-elements-category-r h1 {
+        margin-right: 0%;
+        text-align: center;
+        font-size: 2.9em;
+    }
+
+
+    .extra-elements-category {
+        flex-direction: column;
+    }
+
+    .extra-elements-category section .extra-elements-1 {
+        flex-direction: column-reverse;
+    }
+
+    .extra-elements-category section .extra-elements-1 img {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .extra-elements-category section .extra-elements-1 .extra-btn {
+        margin-bottom: 30%;
+    }
+
+    /* extra elements content */
+
+    section.extra-elements-1 {
+        flex-direction: column;
+    }
+
+
+    .extra-element,
+    .extra-element-img {
+        margin: 0%;
+        margin-top: 5%;
+    }
+
+    .extra-element-img {
+        width: 80vw;
+    }
+
+    .extra-element {
+        width: 80vw;
+        align-items: center;
+    }
+
+    .extra-element-p-subheading {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .extra-element p {
+        text-align: center;
+    }
+
+    .extra-element h1 {
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .extra-btn {
+        margin-top: 20%;
+    }
+
+    .extra-btn-flex {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+}
 
 /* PRICES */
 
@@ -1060,271 +1312,6 @@ section.extra-elements-1 {
     background-color: #F7F6F5;
     color: #2E1B2A;
   }
-
-  @media screen and (min-width: 1025px) {
-    .impression-pics img {
-        width: 22%;
-        height: 22%;
-    }
-
-    .imp-1 {
-        margin-top: 0;
-    }
-
-    .imp-2 {
-        margin-top: 1%;
-    }
-
-    .imp-3 {
-        margin-top: 3%;
-    }
-
-    .imp-4 {
-        margin-top: 2%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .welcome {
-        overflow-x: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .welcome-img {
-        height: 50vh;
-        width: auto;
-    }
-
-    .welcome-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        overflow-wrap: normal;
-        width: 60%;
-    }
-
-    .impression-pics {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .impression-pics img {
-        margin: 3% 6%;
-    }
-
-
-    /* faq-headers */
-
-    .faq-category h1 {
-        margin-left: 0%;
-        text-align: center;
-        font-size: 2.9em;
-    }
-
-
-    .faq-category-r h1 {
-        margin-right: 0%;
-        text-align: center;
-        font-size: 2.9em;
-    }
-
-
-    /* accordeon */
-
-    section.accordeon-animated-2 {
-        flex-direction: column;
-    }
-
-    .accordeon-animated {
-        width: 85vw;
-    }
-
-    .accordion-animated {
-        padding: 4%;
-        padding-bottom: 4%;
-        font-size: 0.86em;
-    }
-
-    /* contact-roses*/
-
-    .cta-roses-1 {
-        background-image: none;
-        transform: rotate(0deg);
-        margin-top: 0%;
-        margin-left: 0%;
-        width: 5vw;
-        /* border: 1px solid red; */
-
-    }
-
-    .cta-roses-2 {
-        width: 90vw;
-        height: 100vh;
-        /* border: 1px solid red; */
-
-    }
-
-    .cta-roses-3 {
-        background-image: none;
-        transform: rotate(0deg);
-        margin-top: 0%;
-        margin-right: 0%;
-        width: 5vw;
-        /* border: 1px solid red; */
-    }
-
-    /* price packages */
-
-    .packages {
-        display: flex;
-        justify-content: center;
-    }
-
-    .packages-1 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 2.5%;
-        width: 75%;
-    }
-
-    .card0,
-    .card1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-left: 0%;
-        margin-top: 4%;
-        padding: 15%;
-        height: 60vh;
-    }
-
-    .package-day {
-        position: relative;
-        bottom: 5%;
-        z-index: -3;
-    }
-
-    .package-description {
-        text-align: center;
-    }
-
-
-    /* accordeon */
-
-    section.accordeon-animated-2 {
-        flex-direction: column;
-    }
-
-    .accordeon-animated {
-        width: 85vw;
-    }
-
-    .accordion-animated {
-        padding: 4%;
-        padding-bottom: 4%;
-        font-size: 0.86em;
-    }
-
-    /* EXTRA ELEMENTS */
-
-    /* extra-elements-headers */
-
-    .extra-elements-category h1 {
-        margin-left: 0%;
-        text-align: center;
-        font-size: 2.9em;
-    }
-
-
-    .extra-elements-category-r h1 {
-        margin-right: 0%;
-        text-align: center;
-        font-size: 2.9em;
-    }
-
-
-    .extra-elements-category {
-        flex-direction: column;
-    }
-
-    .extra-elements-category section .extra-elements-1 {
-        flex-direction: column-reverse;
-    }
-
-    .extra-elements-category section .extra-elements-1 img {
-        margin-bottom: 10%;
-        margin-top: 10%;
-    }
-
-    .extra-elements-category section .extra-elements-1 .extra-btn {
-        margin-bottom: 30%;
-    }
-
-    /* extra elements content */
-
-    section.extra-elements-1 {
-        flex-direction: column;
-    }
-
-
-    .extra-element,
-    .extra-element-img {
-        margin: 0%;
-        margin-top: 5%;
-    }
-
-    .extra-element-img {
-        width: 80vw;
-    }
-
-    .extra-element {
-        width: 80vw;
-        align-items: center;
-    }
-
-    .extra-element-p-subheading {
-        margin-top: 5%;
-        text-align: center;
-    }
-
-    .extra-element p {
-        text-align: center;
-    }
-
-    .extra-element h1 {
-        text-align: center;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-
-    .extra-btn {
-        margin-top: 20%;
-    }
-
-    .extra-btn-flex {
-        display: flex;
-        width: 100vw;
-        height: 10vh;
-        justify-content: center;
-        margin-bottom: 20%;
-    }
-    
-    footer h3 {
-        font-size: 1.2rem;
-    }
-
-    footer p {
-        font-size: 0.8rem;
-        padding: ;
-    }
-}
   
   
   
@@ -1358,6 +1345,3 @@ section.extra-elements-1 {
   }
   }
 
-  @media only screen and (min-width: 992px) {
-
-  }
