@@ -89,8 +89,8 @@ class Footer extends HTMLElement {
             </div>
         </div>
         <div class="footer-2">
-            <a>Copyright © 2022 Schloss Oberndorf</a><a
-                href="#">Imprint</a><a href="#">Privacy Policy</a>
+            <a>Copyright © 2022 Schloss Oberndorf</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+                href="#">Imprint</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Privacy Policy</a>
         </div>
     </footer> `
 
