@@ -379,7 +379,7 @@
       <li class="nav-link"><a href="thecastle.html">The Castle</a></li>
       <li class="logo-desktop"><a href="index.html">
               <img src="img/logo.png" height="70%">
-      </li>
+      </li></a>
       <li class="nav-link"><a href="gallery.html">Gallery</a></li>
       <li class="nav-link"><a href="prices.html">Prices</a></li>
       <li class="nav-link"><a href="faq.html">FAQ</a></li>
