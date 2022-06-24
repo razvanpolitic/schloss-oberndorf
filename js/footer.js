@@ -50,11 +50,12 @@ class Footer extends HTMLElement {
                     </div>
                     <div class="vr">&nbsp;</div>
                     <div class="f-column" id="icons">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="53.621" height="53.621" viewBox="0 0 53.621 53.621">
+                        <a href = "https://www.instagram.com/schlossoberndorf/" target="_blank"> <svg style=" width:85%;
+                        height: 85%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="53" height="53" viewBox="0 0 53 53">
                             <defs>
                                 <clipPath id="clip-path">
-                                    <rect id="Rectangle_73" data-name="Rectangle 73" width="53.621" height="53.621"
+                                    <rect id="Rectangle_73" data-name="Rectangle 73" width="53" height="53"
                                         fill="rgba(255,255,255,0.92)" />
                                 </clipPath>
                             </defs>
@@ -69,12 +70,13 @@ class Footer extends HTMLElement {
                                     d="M127.965,32.977a3.217,3.217,0,1,1-3.217-3.217,3.217,3.217,0,0,1,3.217,3.217"
                                     transform="translate(-83.626 -20.478)" fill="rgba(255,255,255,0.92)" />
                             </g>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="53.206" height="53.621" viewBox="0 0 53.206 53.621">
+                        </svg></a>
+                        <a href = "https://wa.link/k1zxcm" target="_blank"> <svg style=" width:85%;
+                        height: 85%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="53" height="53" viewBox="0 0 53 53">
                             <defs>
                                 <clipPath id="clip-path">
-                                    <rect id="Rectangle_74" data-name="Rectangle 74" width="53.206" height="53.621"
+                                    <rect id="Rectangle_74" data-name="Rectangle 74" width="53" height="53"
                                         fill="rgba(255,255,255,0.92)" />
                                 </clipPath>
                             </defs>
@@ -83,7 +85,7 @@ class Footer extends HTMLElement {
                                     d="M27.085,0A26.125,26.125,0,0,0,4.714,39.607L0,53.621l14.461-4.629A26.122,26.122,0,1,0,27.085,0m0,47.864a21.621,21.621,0,0,1-11.962-3.6L6.767,46.944l2.716-8.074a21.737,21.737,0,1,1,17.6,8.995M39.333,32.055c-.655-.359-3.871-2.095-4.474-2.34s-1.043-.372-1.513.279-1.8,2.1-2.209,2.534-.8.471-1.452.111a18.211,18.211,0,0,1-5.237-3.509,20.129,20.129,0,0,1-3.536-4.756c-.365-.682,0-1.03.343-1.349.311-.288.7-.755,1.044-1.131a4.552,4.552,0,0,0,.708-1.087A1.227,1.227,0,0,0,23,19.637c-.155-.339-1.365-3.671-1.871-5.026s-1.069-1.154-1.458-1.169-.831-.087-1.276-.1a2.45,2.45,0,0,0-1.809.767,7.479,7.479,0,0,0-2.542,5.474c-.123,3.28,2.147,6.54,2.464,7s4.335,7.569,11.012,10.493,6.714,2.032,7.939,1.967,4.005-1.466,4.619-3a5.571,5.571,0,0,0,.507-3.155c-.157-.284-.594-.469-1.249-.826"
                                     fill="rgba(255,255,255,0.92)" fill-rule="evenodd" />
                             </g>
-                        </svg>
+                        </svg></a>
                     </div>
                 </div>
             </div>

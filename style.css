@@ -268,6 +268,7 @@ p {
     letter-spacing: 100;
     font-weight: lighter;
     text-align: left;
+    color: white;
 }
 
 input[type=text],
@@ -281,6 +282,7 @@ textarea {
     border-left: none;
     border-right: none;
     border-bottom: 2px solid #fff;
+    color: white;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -321,30 +323,14 @@ footer h3 {
     color: white;
     padding-bottom: 3%;
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-size: 35px;
-=======
-    font-size: 130%;
->>>>>>> parent of c022265 (Co-authored-by: DumitritaPoiata <DumitritaPoiata@users.noreply.github.com>)
-=======
-    font-size: 35px;
->>>>>>> parent of fc8084c (Update style.css)
-=======
-    font-size: 35px;
->>>>>>> parent of fc8084c (Update style.css)
+    font-size: 1.6vw;
 }
 
 footer p {
     font-family: Helvetica, sans-serif;
     color: white;
     text-align: center;
-<<<<<<< HEAD
-    font-size: large;
-=======
-    font-size: 20px;
->>>>>>> parent of c022265 (Co-authored-by: DumitritaPoiata <DumitritaPoiata@users.noreply.github.com>)
+    font-size: 0.8rem;
 }
 
 .footer-1 {
@@ -356,11 +342,6 @@ footer p {
     padding: 1% 15% 2% 15%;
     justify-content: center;
     align-items: center;
-}
-
-.f-logo img {
-    height: auto;
-    width: auto;
 }
 
 .f-text {
@@ -383,10 +364,23 @@ footer p {
     flex-direction: column;
 }
 
+#icons {
+    padding: 0 0 0 5%;
+    flex-direction: row;
+    padding: 2%;
+}
+
 #icons svg {
-    width: 70%;
-    height: 70%;
-    justify-content: space-between;
+    width: 85%;
+    height: 85%;
+}
+
+.f-logo {
+    width: 40%;
+}
+
+.f-logo svg {
+    width: 100%;
 }
 
 .footer-2 {
@@ -404,9 +398,10 @@ footer p {
 .footer-2 a {
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 0.8rem;
     text-decoration: none;
 }
+
 
 /* -----------------------old-footer---------------------------- */
 #form-footer {
@@ -683,6 +678,7 @@ section.accordeon-animated-2 {
     letter-spacing: 100;
     font-weight: 500;
     text-align: left;
+    color: black;
 }
 
 .c-cta-form input[type=text],
@@ -696,6 +692,7 @@ section.accordeon-animated-2 {
     border-left: none;
     border-right: none;
     border-bottom: 2px solid black;
+    color: black;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
