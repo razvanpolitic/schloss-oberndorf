@@ -1,4 +1,4 @@
-filterSelection("all") // Execute the function and show all categorys
+filterSelection("all") // Execute the function and show all categories
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("category");
